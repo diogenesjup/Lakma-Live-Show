@@ -1,0 +1,2452 @@
+
+<!--
+#
+                             `..-://++ooosssoooo++/:--..`
+                        ``-:++oossssssssssssssssssssssoo++/:-``
+                     `.:+osssssssssssssssssssssssssssssssssssso/:-.
+                   .:+osssssssssssssssssssssssssssssssssssssssssssoo/-.`
+                 `:osssssssssssssssssssssssssssssssssssssssssssssssssso+/-`
+               ./osssssssssssssssssssssssssssssssssssssssssssssssssssssssso+-.`
+             `:ossssssssssssssssssssssssssssssssssssssssssssssssssssssssssssso+:`
+           `.+ssssssssssssssssssssssssooosssssssssssssssssssssssooossssssssssssss/-`
+          `:ossssssssssssssssssso+/-.````.-+ossssssssssssssso+:.````.-/+osssssssssso/.
+         `+ossssssssssssssssss+:.           -+sssssssssssso/.`         `-+osssssssssss/.`
+       `.ossssssssssssssssss+-`              -ossssssssss+.              `-ossssssssssss+:`
+       -ossssssssssssssssso/`                -+sssssssso/`                `.ssssssssssssso+.
+      :osssssssssssssssss+-                  .+sssssss+:                    +ossssssssssssso:`
+     :osssssssssssssssss+-          `        -+ssssss+-          `          /osssssssssssssso/.
+    .ossssssssssssssssso.         .://       -osssss+`        .://-         +osssssssssssssssso`
+   .ossssssssssssssssso-         :osss`     `:sssso/`      `./osso:        `sssssssssssssssssss+.
+  .:ssssssssssssssssso:        `:sssso      ./ssso/`      `:osssso`       `:ssssssssssssssssssss/.
+  :osssssssssssssssso:        `:sssso/      ./ss+-`      `+ossss+:        -osssssssssssssssssssss:`
+ -+sssssssssssssssss/.       `:ossss+.      .:o/`       `ossssso/`       -/ssssssssssssssssssssss+-
+ /osssssssssssssssso.        :+sssss/         `        .+ssssss/.       `/ssssssssssssssssssssssso/
+.+sssssssssssssssss-`       .ossssso:                `:ossssss+.        /ossssssssssssssssssssssss+.
+:osssssssssssssssso        `/ssssss+-                /osssssss.`       :ossssssssssssssssssssssssso:
++ossssssssssssssso-       `-sssssss+-              `/osssssso:       `-ssssssssssssssssssssssssssso/
+ossssssssssssssss/        .+sssssss+:             ./ssssssso/        -ossssssssssssssssssssssssssso/
+osssssssssssssss+-       `:sssssssso/            -+ssssssss/`       -+sssssssssssssssssssssssssssso+
+ssssssssssssssss/`       -+ssssssssso/`       `.+ossssssss/.       .+ssssssssssssssssssssssssssssso/
+osssssssssssssss:        :osssssssssss+:.``.-:+sssssssssso.        /ossssssssssssssssssssssssssssso:
++osssssssssssss+-       `+sssssssssssssssssssssssssssssss:`       .ossssssssssssssssssssssssssssss+.
+:osssssssssssss/.       .+sssssssssssssssssssssssssssssso`       `/sssssssssssssssssssssssssssssss+
+.+sssssssssssss:.       -+ssssssssssssssssssssssssssssso/        .ssssssssssssssssssssssssssssssso:
+ /ossssssssssss:`       .+ssssssssssssssssssssssssssssso:       `-sssssssssssssssssssssssssssssss/.
+ -+ssssssssssss:`       `/sssssssssssssssssssssssssssss+-       `-sssssssssssssssssssssssssssssso-
+  -osssssssssss:.        ./osssssoooossssssssssssssssss+-        `/ossssssooosssssssssssssssssss:`
+  `-sssssssssss/.         `.://:-...-/osssssssssssssssso:         `-:///-....:+ssssssssssssssss+`
+   `-ossssssssso-                     -ossssssssssssssso+                     .:sssssssssssssso`
+     :+sssssssss/.                     /ossssssssssssssss-`                    .ossssssssssss+-
+      ./sssssssso/`                    /osssssssssssssssso.                    .osssssssssss+-
+       `-+ssssssso+.                  -osssssssssssssssssso:`                 ./sssssssssss/.
+         `:+ssssssso:.              ./osssssssssssssssssssso+-               -+ossssssssso/`
+           `-/sssssssso/-.````...-/+ossssssssssssssssssssssssso/:-.`````..-:ossssssssssso:
+             `-/ossssssssoooooooosssssssssssssssssssssssssssssssssoooooooosssssssssssso/-
+                .-/sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssso-`
+                   .:+osssssssssssssssssssssssssssssssssssssssssssssssssssssssssssso/`
+                     `.-+ossssssssssssssssssssssssssssssssssssssssssssssssssssssso/.
+                         `.:/oossssssssssssssssssssssssssssssssssssssssssssssso+/`
+                             `.-/ooosssssssssssssssssssssssssssssssssssssssoo/-`
+                                  `.-/+oossssssssssssssssssssssssssssssso+:-
+                                       ```.-:/+++ooooossssssssoooo++/:-``
+                                        /sdmmhs+.
+                                     `.hmmmmmmmmmd/.
+                                   odmmmmmmmmmmmmmmmy`
+                                 +dmmmmmmmmmmmmdmmmmmo
+                                 /mmmmmmmmmmmss+smmmmd
+                            `.   -ohmddssmmy/+oo/ommmh`
+                          `::o: -//:++/+//+//+s//osmm/
+                        `:/hdhsoho+so//o////////ssyo.
+                       `/ydmmmmhoso/oy/oo///++s/. ossoo/-
+                     `odmmmmmmmmdsh+/+y/+so/sy`  `soo++oss
+               -ssydddmmmmmdddmmmmd+//y/ossmmm+    +o+ss+-
+                ymmmmmmmmy+///+sdmmh//os++mmmmmo  -o/s.
+              --+ymmmmmmys+/////smmmyso+symmds++o.o/o-
+                -oodmmmo////////+mmmdshhydmm+///yo/+/
+               +o/ymmms//oo//////ymmmmmmmmmm++sosooy`
+              :o/+dmmmo/oy//////+mmmmmmmmmmyso/+osoo/
+            `+hssdmmmmo+y///////+mmmmmmmmmyy////+++y-
+          -hdmmmmmmmmm+y+/s//+sosdmmmmmmdho/////+oos
+         .+yddhmmmmmmdoo//soo+yoysdyho+///////+ssooy:
+         .``.y/+mmmmmhso/+ho/+yooyyy///////oshoo+/+++y       .o+
+            o+++mmmmmyy++h+/os/yoys+/////osos+/oso++oy:      :mh.`
+           :o+++yyso+y+/ss/+s/+y+yy///oydo/y//os//////++/:://omd+o-
+           s+/-:+/syhdy+so/so/+hssosoysymmhhooho+///////o//+sohso+/
+         .o++hmdmdmmmmmmdd+++os/+oyoosodmmmmmmmmmmyosooooo++/:sooos
+        `y++yoydmmmmmmmmmmmdhddyymmmddmmmmmmmmmmmh+yyyyyo.   `dy+/-----::-
+        /os/s/+odmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmd/syyyyyyh-  -mh::-.:+:..:y.
+        soo+s//soymmmmmmmmmmmmmmmmmmmmmmmmmmmmmmy+hyyyyyyh/:o/hh+/+s+-....so::::::
+       .soo+s///osoydmmmmmmmmmmmmmhyssyydmmmmddhohyyyhhs/-:/s//-/sooo/..:yyoooooydo:--------::.
+       ++oo/s+////ooooydmmmmmmdyo+//++ooosyys+sysssssy:/oo+s/+s+/:--.-+yhyyyyyyhmmyooooooooooos:
+       s/o+/+s//////++//+ossososysyyhyyyyyyyyhhoooooy-....++/:...-/oyhysssssssshmmyoooooooooooos:
+   `/++h+os//oo+/////oo+/oossosyyyyyyyyyyyyyyyyhhoooso-.../-:/+shhyssssssssssssymyooooooooooossos:
+  -dysosyyyyso+oooo+ssso+/++yhyyyyyyyyyyyyyyyyyyydoooosysyyyysooyyyyyyyyyyyyyyyysooooooooooooosssh:
+ /hssssssssssssssssyoooossyyyyhhyyyyyyyyyyyyyyyyyhysssssssssssssssssssssssssssssssssssssyyyyyydhhyh
+ hyhhhshshhydhhhhhhhyhhyhhhyhhyhdhhhhhyyyyyyyyyyyydhhhhyhhhyhhhyhhyhhyhhyyyhyyhsyyyhhshshhhhyhhhyyh`
+ hyhhhshshhshhhyyyyhyyhshhhshyyhhhshhshyyhyyyyyyyyydhhhyhhhyhhhyhhyhhyhhhhhhhhhyhhhhhydyhdddhddy/:.
+ ooydhhhdddhddssssssoooooooooo+o+ydddhhhhdyyyyyyyyyyd+:::::::::--------..........````.dhyyhysoos
+   sooyhhsyhdo                   hhddddhhhhyyyyyyyyyyh.                               ohhysdysos:
+  .yoosdyshhd`                 .shyyhhyhd--hyyyyyyyyyyh.                              .dhhsyysooy`
+  oooshhsyhdo                 /hyyyyyyyyyy+odhyyyyyyyyyh:                              syyysdysoo+
+ `yosydyyyyd`                 -syhyyyhhyyyyyyhhhhyyyyyyyh+````                         -hshyhhoooy.
+ oooshssyss:                          `:/+/:-::-.:+yyyyyyyhdddy.    .-::-.`             .:-` +oooos
+`yoooh                                              -syhyyyyhhhhssyhhyyyyh/                  `yooos/
++osoy-                                                ohyyyhhdhdyyyyyyyhy-                    /sosoy
+ysyss
+#
+#
+# DIOGENES OLIVEIRA DOS SANTOS JUNIOR
+# WWW.DIOGENESJUNIOR.COM.BR
+# CONTATO@DIOGENESJUNIOR.COM.BR
+#
+#
+-->
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+
+<title>LAKMA LIVE SHOW</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+<meta name="theme-color" content="#D40F7D">
+
+<!-- FAVICON -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+<meta name="description" value="Nome do evento">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+
+<!--<link rel="stylesheet" type="text/css" href="css/style.css?v=10" />-->
+
+<style type="text/css" media="screen">
+	
+/*
+	DIOGENES JUNIOR
+	CONTATO@DIOGENESJUNIOR.COM.BR
+
+*/
+
+/*---------------------------------
+	IMPORTS E CONSULTAS
+-----------------------------------*/
+
+a[href^="#"]{
+  color: #84E;
+}
+
+/*---------------------------------
+	ESTILOS
+-----------------------------------*/
+html,body{
+    height: 100%;
+}
+body{
+	overflow-x: hidden;
+    background:#f0f0f0;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+/*---------------------------------
+  SIDEMENU
+-----------------------------------*/
+.menu-side{
+	position: fixed;
+	display: block;
+	right: -370px;
+	top: 0;
+	width: 360px;
+	height: 100%;
+	background: #c8651e;
+	z-index: 1000;
+	padding: 45px;
+	-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;transition:all 300ms ease;
+}
+.menu-side .close-menu-side{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	z-index: 10;
+}
+
+.menu-side .close-menu-side a{
+	text-decoration: none;
+}
+
+.menu-side .close-menu-side img{
+	width: 24px;
+	height: auto;
+}
+
+
+.menu-side nav{
+	padding-bottom: 40px;
+	padding-top: 65px;
+}
+.menu-side nav ul{
+	padding-left: 0px;
+	margin-left: 0px;
+	list-style: none;
+}
+
+.menu-side nav ul li{
+	list-style: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.menu-side nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.menu-side nav ul li a.ativo{
+	font-weight: bold;
+	color: #fff;
+}
+
+.menu-side h2 a{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	padding: 14px;
+	border: 2px dotted #B7DB57;
+	border-radius: 5px;
+}
+
+/*---------------------------------
+  MODAL LOGIN
+-----------------------------------*/
+.modal-login{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	display: none;
+	background: rgba(13, 13, 53, 0.90);
+	padding: 50px;
+}
+
+.modal-login .caixa-branca{
+	position: relative;
+	display: block;
+	background: #fff;
+	border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.16);
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    float: right;
+}
+
+.modal-login .close-modal-login{
+	position: absolute;
+    top: 18px;
+    right: 15px;
+}
+
+.modal-login .close-modal-login img{
+	width: 18px;
+	height: auto;
+}
+
+.modal-login h3{
+	color: #D40F7D;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-login label{
+	font-weight: 300;
+	color: #282869;
+	font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-login .form-control{
+	box-shadow: none;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.modal-login .form-control{
+	margin-bottom: 8px;
+}
+
+.super-banner .btn-primary,
+.super-banner .btn-primary:hover,
+.super-banner .btn-primary:visited,
+.super-banner .btn-primary:focus,
+.super-banner .btn-primary:active{
+    background: #c8651e !important;
+    border-color: #c8651e !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: #fff !important;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #c8651e !important;
+    border-color: #c8651e !important;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: #fff !important;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+
+
+.btn-success,
+.btn-success:hover,
+.btn-success:visited,
+.btn-success:focus,
+.btn-success:active{
+   background: #D40F7D !important;
+   border-color: #D40F7D !important;
+   font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   padding-left: 34px;
+   padding-right: 34px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: #fff !important;
+}
+
+/*---------------------------------
+	HEADERS
+-----------------------------------*/
+header.super-banner{
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	padding-top: 16px;
+	z-index: 2;
+}
+
+header .logo{
+
+}
+
+header .logo img{
+	width: 160px;
+	height: auto;
+}
+
+header .toggles{
+	padding-top: 16.5px;
+	text-align: right;
+}
+
+
+@media(max-width: 540px){
+      header .toggles {
+        padding-top: 8.5px;
+        text-align: right;
+    }
+}
+
+
+header .toggles a{
+	color: #fff;
+	color: rgba(255,255,255,0.85);
+	text-decoration: none !important;
+    font-size: 12.5px;
+    text-transform: uppercase;
+}
+
+
+header .toggles ul{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+header .toggles ul li{
+	display: inline;
+	list-style: none;
+	padding-left: 30px;
+}
+
+@media(max-width: 540px){
+    header .toggles ul li {
+      display: inline;
+      list-style: none;
+      padding-left: 12px;
+    }
+}
+
+
+header .toggles ul li:last-child a{
+	color: rgba(255,255,255,1) !important;
+}
+
+
+@media(max-width: 540px){
+      header .toggles ul li:last-child a {
+        color: rgba(255,255,255,1) !important;
+        font-size: 28px;
+    }
+    #light header .toggles ul li:last-child a {
+      color: #c8651e !important;
+      font-size: 28px;
+  }
+}
+
+#light header .toggles a{
+  color: rgba(000,000,000,0.85);
+}
+
+
+
+header .toggles ul li img{
+	width: 44px;
+	height: auto;
+}
+
+header .toggles ul li:first-child img{
+	margin-right: 8px;
+}
+
+@media(max-width: 540px){
+  header .toggles ul li:first-child img{
+  	margin-right: 8px;
+    margin-top: -14px;
+  }
+}
+
+header.header-fixo{
+	position: fixed;
+	display: block;
+	background: #c8651e;
+	left: 0;
+	top: -300px;
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 3px;
+	z-index: 999;
+	-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;transition:all 300ms ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#light header.header-fixo{
+   background: #fff;
+}
+
+header.header-fixo .toggles a{
+	color: #fff !important;
+	text-decoration: none;
+}
+
+#light header.header-fixo .toggles a{
+  color: rgba(000,000,000,0.85) !important;
+}
+
+header.header-fixo .logo img{
+	width: 144px;
+    height: auto;
+}
+
+header.header-fixo .toggles {
+    padding-top: 4.5px;
+    text-align: right;
+}
+
+
+header.header-fixo .frase-de-destaque{
+	text-align: center;
+    padding-top: 16px;
+
+}
+
+header.header-fixo .frase-de-destaque h1{
+	font-family: 'Poppins', sans-serif;
+	color: #282869;
+	font-weight: 300;
+	font-size: 22px;
+}
+header.header-fixo .frase-de-destaque h1 span{
+	color: #D40F7D;
+}
+
+/*---------------------------------
+	SUPER BANNER
+-----------------------------------*/
+section.super-banner{
+	position: relative;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 650px;
+	background: #0d0d35;
+	z-index: 1;
+}
+
+section.super-banner .container{
+	position: relative;
+	z-index: 999;
+}
+
+section.super-banner .coluna-um{
+	padding-top: 184px;
+}
+
+section.super-banner .coluna-um h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	font-size: 50px;
+	line-height: 54px;
+}
+
+section.super-banner .coluna-um h1 small{
+	font-weight: bold;
+    color: #c8651e;
+    display: block;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+@media(max-width:540px){
+  section.super-banner .coluna-um h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  section.super-banner .coluna-um h1 small {
+    font-weight: bold;
+    color: #c8651e;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 12px;
+    display: block;
+    line-height: 29px;
+  }
+}
+
+#light section.super-banner .coluna-um h1{
+  color: #171717 !important;
+}
+
+
+section.super-banner .coluna-um h3{
+	font-weight: 600;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 75px;
+    font-size: 24px;
+}
+
+
+@media(max-width:540px){
+
+  section.super-banner .coluna-um h3 {
+      font-weight: 600;
+      color: #fff;
+      margin-top: 6px;
+      margin-bottom: 75px;
+      font-size: 19px;
+  }
+
+}
+
+#light section.super-banner .coluna-um h3{
+   color: #171717 !important;
+}
+
+
+section.super-banner .coluna-um h1 span{
+	color: #00C8D2;
+}
+
+section.super-banner .coluna-um p{
+	color: #FFFFFF;
+	opacity: 0.80;
+	width: 70%;
+	font-size: 18px;
+}
+
+
+section.super-banner .coluna-dois{
+  padding-top: 20px;
+  text-align: right;
+}
+
+section.super-banner .coluna-dois img{
+	width: 90%;
+	height: auto;
+}
+
+section.super-banner img#slide{
+    position: absolute;
+    bottom: -220px;
+    right: 42px;
+    width: 480px;
+    height: auto;
+    z-index: 50;
+}
+
+section.super-banner #container{
+	position: relative;
+	z-index: 2;
+}
+
+section.super-banner .background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+section.super-banner .redes-sociais-flutuantes{
+	position: absolute;
+	top: 35.5%;
+	right: 110px;
+	z-index: 50;
+}
+
+section.super-banner .redes-sociais-flutuantes ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+section.super-banner .redes-sociais-flutuantes ul li{
+	list-style: none;
+}
+
+section.super-banner .redes-sociais-flutuantes ul li a{
+	color: #0d0d35;
+}
+section.super-banner .redes-sociais-flutuantes ul li a.white{
+	color: #fff;
+	text-decoration: none;
+}
+
+section.super-banner .redes-sociais-flutuantes ul li a img{
+	width: 28px;
+	height: auto;
+	margin-bottom: 9px;
+}
+
+section.super-banner .indicativo-scroll{
+	position: absolute;
+	left: 0;
+	bottom: 55px;
+	width: 100%;
+	z-index: 85;
+	text-align: center;
+}
+
+section.super-banner .indicativo-scroll img{
+	cursor: pointer;
+	width: 20px;
+	height: auto;
+}
+
+
+/*---------------------------------
+	VÍDEO DESTAQUE
+-----------------------------------*/
+section.video-destaque{
+	position: relative;
+	display: block;
+	padding-top: 63px;
+	padding-bottom: 63px;
+}
+
+section.video-destaque iframe{
+	width: 100%;
+	height: 300px;
+}
+
+section.video-destaque .coluna-um{
+	padding-top: 20px;
+}
+
+
+section.video-destaque .coluna-dois{
+	padding-top: 20px;
+	padding-left: 42px;
+}
+
+section.video-destaque .coluna-dois h2{
+	 font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	padding-top: 0px;
+	padding-left: 0px;
+	color: #171717;
+	margin-bottom: 20px;
+	text-align: left;
+	width: 92%;
+	font-size: 28px;
+}
+
+
+section.video-destaque .coluna-dois p{
+	padding-left: 0px;
+	color: #292929;
+	width: 92%;
+	font-size: 15px;
+}
+
+
+
+/*---------------------------------
+   CARROUSEL DESTAQUE 2
+-----------------------------------*/
+section.carrousel-destaques{
+	position: relative;
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 550px;
+	background:#00C8D2;
+}
+
+section.carrousel-destaques .coluna-um{
+	position: relative;
+	display: block;
+	left: 0;
+	height: 550px;
+	padding: 0px;
+	width: 100%;
+	background: url("../images/45.png") transparent no-repeat;
+	background-size: 65% 100%;
+	background-position: left center;
+}
+
+section.carrousel-destaques .coluna-dois{
+	padding: 30px;
+	padding-top: 100px;
+}
+
+
+section.carrousel-destaques .coluna-um h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 40px;
+	margin-bottom: 24px;
+}
+
+section.carrousel-destaques .coluna-um p{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	margin-bottom: 35px;
+}
+
+
+section.carrousel-destaques .coluna{
+	padding-top: 95px;
+	padding-left: 17%;
+	padding-right: 0px;
+}
+
+
+section.carrousel-destaques .coluna-dois img{
+	width: 100px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 18px;
+}
+
+section.carrousel-destaques .coluna-dois h2{
+	color: #282869;
+	font-weight: bold;
+	width: 70%;
+	font-size: 34px;
+	line-height: 42px;
+}
+
+section.carrousel-destaques .carousel-indicators {
+    position: absolute;
+    right: 25%;
+    bottom: -50px;
+ }
+
+
+
+/*---------------------------------
+   DEPOIMENTOS
+-----------------------------------*/
+section.depoimentos{
+	position: relative;
+	display: block;
+	padding-top: 63px;
+	padding-bottom: 63px;
+	text-align: center;
+}
+section.depoimentos iframe{
+	width: 100%;
+	height: 200px;
+}
+
+section.depoimentos h3{
+	font-weight: 400;
+	font-size: 20px;
+	color: #292929;
+}
+
+section.depoimentos h3 small{
+	color: #929292;
+	font-weight: 300;
+}
+/*---------------------------------
+   PARCEIROS BEAUTY
+-----------------------------------*/
+section.parceiros-beauty{
+	position: relative;
+	display: block;
+	padding-top: 63px;
+	padding-bottom: 63px;
+	text-align: left;
+	background:#F2F2F2;
+}
+
+
+section.parceiros-beauty .foto-parceiro{
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	height: 130px;
+	background:#f2f2f2;
+	border-radius: 100px;
+}
+
+section.parceiros-beauty .conteudo-parceiro{
+	padding-top: 14px;
+}
+
+section.parceiros-beauty .conteudo-parceiro p{
+    color: #292929;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+section.parceiros-beauty .conteudo-parceiro p b{
+	font-size: 1.12em;
+	color: #292929;
+	font-weight: bold;
+}
+
+
+section.parceiros-beauty .controle-banner-na-homepage{
+  position: absolute;
+  top: 155px;
+  left: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: auto;
+}
+
+@media(max-width: 540px){
+	section.parceiros-beauty .controle-banner-na-homepage{
+		top: 62px;
+		display: none;
+	}
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme img{
+  width: 23px !important;
+  height: auto !important;
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner {
+  position: absolute;
+  top: 36.5%;
+  left: 0;
+  right: 0;
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner{
+  outline: none !important;
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-prev,
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-next {
+  position: absolute;
+  height: 100px;
+  color: inherit;
+  background: none;
+  border: none;
+  z-index: 1;
+  outline: none !important;
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-prev {
+  left: 145px;
+}
+
+section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-next {
+  right: 145px;
+}
+
+@media(max-width: 540px){
+
+    section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-prev {
+      left: 2px;
+    }
+
+    section.parceiros-beauty .controle-banner-na-homepage .owl-theme .custom-nav-banner .owl-next {
+      right: 2px;
+    }
+
+}
+
+
+
+
+
+
+
+/*---------------------------------
+   TÍTULO SESSÃO
+-----------------------------------*/
+section .titulo{
+	text-align: center;
+}
+
+section .titulo h2{
+	font-family: 'Poppins', sans-serif;
+    color: #c8651e;
+    font-weight: 900;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    border-top: 0px solid #282869;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 60%;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 540px){
+      section .titulo h2{
+      	  font-family: 'Poppins', sans-serif;
+          color: #c8651e;
+          font-weight: 900;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          padding-top: 5px;
+          border-top: 0px solid #282869;
+          padding-left: 30px;
+          padding-right: 30px;
+          width: 100%;
+          margin-bottom: 45px;
+          text-transform: uppercase;
+      }
+
+}
+
+
+/*---------------------------------
+   LOJAS DE APPS
+-----------------------------------*/
+section.lojas-apps{
+	position: relative;
+	display: block;
+	padding-top: 63px;
+	padding-bottom: 63px;
+	text-align: left;
+	background:url("../images/lojas.png") #282869 no-repeat;
+	background-size: 100% auto;
+	background-position: center center;
+	color: #fff;
+}
+
+@media(max-width: 540px){
+      section.lojas-apps{
+      	position: relative;
+      	display: block;
+      	padding-top: 63px;
+      	padding-bottom: 63px;
+      	text-align: left;
+      	background:url("../images/lojas.png") #282869 no-repeat;
+      	background-size: cover;
+      	background-position: center center;
+      	color: #fff;
+      }
+}
+
+section.lojas-apps .coluna h2{
+	font-family: 'Poppins', sans-serif;
+	color: #171717;
+	font-weight: bold;
+	margin-bottom: 23px;
+}
+
+
+section.lojas-apps .coluna p{
+	color: #7E7E7E;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+section.lojas-apps .coluna p.text img{
+	width: 13px;
+	height: auto;
+	margin-right: 7px;
+}
+
+section.lojas-apps .coluna .lojas{
+	padding-top: 18px;
+}
+
+section.lojas-apps .coluna .lojas p{
+	margin-bottom: 0px;
+}
+section.lojas-apps .coluna .lojas a{
+	text-decoration: none;
+}
+
+
+section.lojas-apps .coluna .lojas a img{
+	width: 134px !important;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+section.lojas-apps #slide2{
+	position: absolute;
+    display: block;
+    left: 10%;
+    top: -29px;
+    width: 430px;
+    height: auto;
+    z-index: 50;
+}
+
+
+@media(max-width:540px){
+    section.lojas-apps #slide2{
+      position: relative;
+    }
+}
+
+/*---------------------------------
+   ESTATÍSTICAS
+-----------------------------------*/
+section.estatisticas{
+	position: relative;
+	display: block;
+	padding-top: 44px;
+	padding-bottom: 44px;
+	text-align: center;
+	background: #c8651e;
+}
+
+section.estatisticas .caixa-estatisticas h2{
+	color: #fff;
+	font-weight: 300;
+	font-size: 36px;
+}
+
+section.estatisticas .caixa-estatisticas h2 span{
+	font-weight: 300;
+	font-size: 47px;
+	color: #fff;
+}
+
+
+section.estatisticas .caixa-estatisticas h2 small{
+	font-size: 16px;
+    font-weight: bold;
+    background: rgba(255,255,255,0.35);
+    display: block;
+    width: 200px;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+
+section.estatisticas .container{
+	z-index: 10;
+	position: relative;
+}
+
+section.estatisticas h2.livre-backdrop{
+	position: absolute;
+	display: block;
+	font-size: 180px;
+	color: #00C8D2;
+	opacity:1;
+	z-index:5;
+	top:24px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	opacity: 0.15;
+}
+
+/*---------------------------------
+   FORMULÁRIO DE CONTATO
+-----------------------------------*/
+section.formulario-de-contato{
+	position: relative;
+	display: block;
+	padding-top: 73px;
+	padding-bottom: 45px;
+	text-align: center;
+	background:#c8651e;
+}
+
+
+section.formulario-de-contato .titulo h2{
+	color: #fff !important;
+}
+
+
+section.formulario-de-contato .form{
+	text-align: left;
+}
+
+section.formulario-de-contato .form label{
+	color: #fff;
+	font-weight: normal;
+}
+
+section.formulario-de-contato .form input.form-control{
+	font-size: 14px;
+    height: 46px;
+}
+
+section.formulario-de-contato .btn-primary,
+section.formulario-de-contato .btn-primary:hover,
+section.formulario-de-contato .btn-primary:visited,
+section.formulario-de-contato .btn-primary:focus,
+section.formulario-de-contato .btn-primary:active{
+  background: rgba(255,255,255,0.45) !important;
+  border:none !important;
+}
+
+section.formulario-de-contato .contatos-evento{
+  text-align: center;
+}
+
+section.formulario-de-contato .contatos-evento h3{
+	font-weight: 300;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 22px;
+}
+
+section.formulario-de-contato textarea{
+	height: 234px;
+}
+
+
+/*---------------------------------
+   RODAPÉ
+-----------------------------------*/
+footer{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+  background: #fff;
+}
+
+
+footer .corpy p{
+	margin-bottom: 0px;
+	color: #949494;
+	font-size: 13px;
+	padding-top: 12px;
+    padding-bottom: 17px;
+}
+
+footer .mangu {
+    text-align: right;
+    padding-top: 8px;
+}
+
+@media(max-width: 540px){
+    footer .mangu {
+      text-align: center;
+      padding-top: 8px;
+      padding-bottom: 12px;
+  }
+}
+
+footer .mangu a{
+	text-decoration: none;
+}
+
+footer .mangu img{
+	width: 28px;
+    height: auto;
+    margin-top: -3px;
+}
+
+
+
+
+
+
+
+/* CONTROLES SLIDE PALESTRANTES */
+section.palestrantes .owl-theme .custom-nav-lp {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+}
+
+@media(max-width: 540px){
+    section.palestrantes .owl-theme .custom-nav-lp {
+        position: absolute;
+        top: auto;
+        bottom: 266px;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+section.palestrantes .owl-theme img{
+  width: 40px !important;
+  height: auto !important;
+}
+
+section.palestrantes .custom-nav-lp{
+  outline: none !important;
+}
+
+section.palestrantes .owl-theme .custom-nav-lp .owl-prev,
+section.palestrantes .owl-theme .custom-nav-lp .owl-next {
+  position: absolute;
+  height: 100px;
+  color: inherit;
+  background: none;
+  border: none;
+  z-index: 92;
+  outline: none !important;
+  top: 128px;
+}
+
+section.palestrantes .owl-theme .custom-nav-lp .owl-prev i,
+section.palestrantes .owl-theme .custom-nav-lp .owl-next i {
+  font-size: 2.5rem;
+  color: #cecece;
+}
+section.palestrantes .owl-theme .custom-nav-lp .owl-prev {
+  left: 120px;
+}
+section.palestrantes .owl-theme .custom-nav-lp .owl-next {
+  right: 120px;
+}
+
+@media(max-width: 540px){
+    section.palestrantes .owl-theme .custom-nav-lp .owl-prev {
+      left: 2px;
+    }
+    section.palestrantes .owl-theme .custom-nav-lp .owl-next {
+      right: 2px;
+    }
+}
+
+section.palestrantes{
+  position: relative;
+  display: block;
+  padding-top: 75px;
+  padding-bottom: 60px;
+  background: #00185a;
+}
+
+section.palestrantes h2.titutlo-sessao-lp-grande{
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+
+section.palestrantes .item{
+  background: #fff;
+  height: 410px;
+  border-radius: 12px;
+
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.16);
+
+}
+
+@media(max-width: 540px){
+  section.palestrantes .item{
+    background: #fff;
+    height: 410px;
+    border-radius: 12px;
+  }
+}
+
+
+section.palestrantes .item .header-palestrante{
+  position: relative;
+  display: block;
+  height: 193px;
+  width: 100%;
+  margin-bottom: 8px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+@media(max-width: 540px){
+  section.palestrantes .item .header-palestrante {
+    position: relative;
+    display: block;
+    height: 137px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+}
+
+section.palestrantes .item h4,
+section.palestrantes .item p{
+  padding: 13px;
+}
+
+section.palestrantes .item h4{
+    color: #171717;
+    font-weight: bold;
+    /* font-family: 'Poppins', sans-serif; */
+    border-bottom: 0px solid #1F72B5;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+@media(max-width: 540px){
+    section.palestrantes .item h4 {
+      color: #171717;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-right: 8px;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 12px;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: -9px;
+  }
+}
+
+
+
+section.palestrantes .item p{
+    color: #757575;
+    font-weight: normal;
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+
+@media(max-width: 540px){
+    section.palestrantes .item p {
+        color: #757575;
+	    font-weight: normal;
+	    /* font-family: 'Rubik', sans-serif; */
+	    font-size: 12px;
+	    line-height: 18px;
+	    text-align: center;
+	    margin-top: -6px;
+  }
+}
+
+
+section.palestrantes .item p b{
+	color: #c8651e;
+	font-size: 14px;
+}
+
+section.palestrantes .item p a{
+  color: #404040;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+section.palestrantes .item p a span{
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+section.palestrantes .item p a img{
+  width: 26px;
+  height: auto;
+  margin-right: 2.5px;
+  display: unset;
+}
+
+section.palestrantes .item p.text-center{
+  margin-top: -15px;
+}
+
+
+
+
+
+section.programacao{
+	position: relative;
+	display: block;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	background: #fff;
+}
+
+
+section.programacao .titulo h2{
+	color: #171717;
+}
+
+
+.itens-programacao{
+
+}
+
+
+.itens-programacao .coluna-programacao-evento{
+	text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+}
+
+.itens-programacao .coluna-programacao-evento h2{
+	font-weight: bold;
+	color: #171717;
+}
+
+.itens-programacao .coluna-programacao-evento h2 small{
+	color: #7E7E7E;
+    font-weight: 300;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 20px;
+    padding-top: 1px;
+}
+
+
+.itens-programacao .coluna-programacao-evento .caixa-programacao-evento-horarios{
+    background: #F1F1F1;
+    border-radius: 12px;
+    padding: 20px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    text-align: center;
+    position: relative;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 32px;
+}
+
+.itens-programacao .coluna-programacao-evento .caixa-programacao-evento-horarios .col-2{
+	padding-right: 0px;
+	font-weight: bold;
+	color: #c8651e;
+}
+
+.itens-programacao .coluna-programacao-evento .caixa-programacao-evento-horarios .col-9{
+	text-align: left;
+	padding-right: 0px;
+	    line-height: 22px;
+    padding-bottom: 17px;
+}
+
+
+
+section.escolha-seu-ingresso{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+    padding-top: 75px;
+    padding-bottom: 60px;
+    background: #00185a;
+}
+
+section.escolha-seu-ingresso .titulo h2{
+	color: #fff;
+}
+
+
+section.escolha-seu-ingresso .disclamer-tabela{
+	padding-top: 12px;
+}
+
+section.escolha-seu-ingresso .disclamer-tabela p{
+	font-size: 14px;
+	color: #fff;
+}
+
+.tabelas-de-valores{
+
+}
+
+
+.tabelas-de-valores .tabela-de-valores{
+           position: relative;
+    display: block;
+    background: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+    height: auto;
+    min-height: 390px;
+    text-align: center;
+    padding: 12px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+
+
+@media(max-width: 540px){
+    .tabelas-de-valores .tabela-de-valores {
+      position: relative;
+      display: block;
+      background: #fff;
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+      height: auto;
+      min-height: 390px;
+      text-align: center;
+      padding: 12px;
+      margin-bottom: 40px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.tabelas-de-valores .tabela-de-valores .bottom{
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    padding-top: 13px;
+    background: #c8651e;
+}
+
+.tabelas-de-valores .tabela-de-valores .bottom a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.tabelas-de-valores .tabela-de-valores h2{
+	font-weight: bold;
+	font-size: 55px;
+}
+
+.tabelas-de-valores .tabela-de-valores h2 span.t1{
+	position: absolute;
+    left: 42px;
+    top: 35px;
+    font-size: 16px;
+}
+.tabelas-de-valores .tabela-de-valores h2 span.t2{
+	position: absolute;
+    right: 40px;
+    top: 35px;
+    font-size: 16px;
+}
+
+
+.tabelas-de-valores .tabela-de-valores h4{
+	font-size: 15px;
+    line-height: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 20px;
+}
+
+
+.tabelas-de-valores .tabela-de-valores p{
+	font-size: 14px;
+    margin-bottom: 10px;
+    border-top: 1px solid rgba(246, 87, 103, 0.40);
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-tabela h3{
+	color: #c8651e;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-size: 22px;
+}
+
+section.localizacao{
+	position: relative;
+	display: block;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+
+section.localizacao iframe{
+	width: 100%;
+	height: 340px;
+}
+
+
+section.localizacao h2{
+	font-weight: bold;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+section.localizacao h3{
+	font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+
+section.localizaca p{
+	font-size: 15px;
+    margin-bottom: 3px;
+}
+
+
+@media(max-width: 540px){
+    .esconder-mobile{
+      display: none;
+    }
+}
+@media(min-width: 740px){
+  .esconder-desktop{
+    display: none;
+  }
+}
+
+
+small.valor-antigo-sf{
+	    color: #747474;
+    font-weight: 300;
+    font-size: 14px;
+    display: block;
+    margin-bottom: -12px;
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.patrocinadores{
+	position: relative;
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 8px;
+}
+
+section.patrocinadores .item{
+	text-align: center;
+}
+
+section.patrocinadores .item img{
+	width: 155px;
+	margin: auto;
+	height: auto;
+}
+
+
+/* CONTROLES SLIDE PALESTRANTES */
+section.patrocinadores .owl-theme .custom-nav-lpp {
+  position: absolute;
+  top: -18px;
+  left: 0;
+  right: 0;
+}
+
+@media(max-width: 540px){
+    section.patrocinadores .owl-theme .custom-nav-lpp {
+        position: absolute;
+        top: auto;
+        bottom: 266px;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+section.patrocinadores .owl-theme img{
+  width: 40px !important;
+  height: auto !important;
+}
+
+section.patrocinadores .custom-nav-lpp{
+  outline: none !important;
+}
+
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-prev,
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-next {
+  position: absolute;
+  height: 100px;
+  color: inherit;
+  background: none;
+  border: none;
+  z-index: 92;
+  outline: none !important;
+  top: 128px;
+}
+
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-prev i,
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-next i {
+  font-size: 2.5rem;
+  color: #cecece;
+}
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-prev {
+  left: 120px;
+}
+section.patrocinadores .owl-theme .custom-nav-lpp .owl-next {
+  right: 120px;
+}
+
+@media(max-width: 540px){
+    section.patrocinadores .owl-theme .custom-nav-lpp .owl-prev {
+      left: 2px;
+    }
+    section.patrocinadores .owl-theme .custom-nav-lpp .owl-next {
+      right: 2px;
+    }
+}
+
+
+
+section.video-container{
+  padding: 20px;
+}
+
+section.video-container iframe{
+  width: 100%;
+  height: 530px;
+}
+
+
+section.video-container h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+section.comentarios h2 small,
+section.video-container h2 small{
+       font-family: 'Poppins', sans-serif;
+    display: block;
+    color: #171717;
+    font-size: 17px;
+    line-height: 24px;
+    padding-top: 12px;
+}
+
+section.comentarios p,
+section.video-container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #747474;
+}
+
+section.comentarios{
+  padding: 20px;
+}
+
+section.comentarios h2{
+   font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #171717;
+  margin-bottom: 20px;
+}
+
+.modal-acesso{
+  position: fixed;
+  display: block;
+  left:0;
+  top:0;
+  background: rgba(255,255,255,1);
+  text-align: center;
+  z-index: 99999;
+  padding-top: 50px;
+  width: 100%;
+  height: 100vh;
+  -webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;transition:all 300ms ease;
+}
+
+.modal-acesso img{
+  width: 190px;
+  height: auto;
+}
+
+.modal-acesso .form-group{
+  text-align: left;
+}
+
+.modal-acesso .btn{
+  width: 100% !important;
+}
+
+.modal-acesso label, .modal-acesso .form-control,.video-container .form-control{
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   outline: none !important;
+}
+
+.modal-acesso .btn-primary,
+.modal-acesso .btn-primary:hover,
+.modal-acesso .btn-primary:active,
+.modal-acesso .btn-primary:focus,
+.modal-acesso .btn-primary:visited{
+  background: #D40F7D !important;
+   border:2px solid #D40F7D !important;
+   border-radius: 12px !important;
+   color: #fff !important;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px !important;
+   font-weight: bold;
+   outline: none !important;
+}
+
+.modal-acesso .btn-default,
+.modal-acesso .btn-default:hover,
+.modal-acesso .btn-default:active,
+.modal-acesso .btn-default:focus,
+.modal-acesso .btn-default:visited{
+   border:2px solid #D40F7D !important;
+   border-radius: 12px !important;
+   color: #D40F7D !important;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   outline: none !important;
+}
+/**/
+
+
+.area-comentarios{
+   position: relative;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 380px;
+    max-height: 380px;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+    -webkit-transition:all 500ms ease;-moz-transition:all 500ms ease;transition:all 500ms ease;
+}
+
+.area-comentarios::-webkit-scrollbar-track {
+          background-color: #F4F4F4;
+      }
+.area-comentarios::-webkit-scrollbar {
+          width: 3px;
+          background: #F4F4F4;
+      }
+.area-comentarios::-webkit-scrollbar-thumb {
+          background: #ccc;
+      }
+
+
+.linha-comentario .foto-perfil-comentario{
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: #000;
+    border-radius: 100px;
+}
+
+
+
+.load-wrapp{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.load-wrapp .bar {
+  float: none;
+  width: 100%;
+  height: 4px;
+  margin-left: 0px;
+  border-radius: 2px;
+  background-color: #D40F7D;
+}
+
+.l-10 {
+  animation-delay: 1.56s;
+}
+
+.load-10 .bar {
+  animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+}
+
+@keyframes loadingA {
+  0 {
+    height: 15px;
+  }
+  50% {
+    height: 35px;
+  }
+  100% {
+    height: 15px;
+  }
+}
+
+@keyframes loadingB {
+  0 {
+    width: 15px;
+  }
+  50% {
+    width: 35px;
+  }
+  100% {
+    width: 15px;
+  }
+}
+
+@keyframes loadingC {
+  0 {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes loadingD {
+  0 {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingE {
+  0 {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loadingF {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes loadingG {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(70px, 0) rotate(360deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+@keyframes loadingH {
+  0% {
+    width: 15px;
+  }
+  50% {
+    width: 35px;
+    padding: 4px;
+  }
+  100% {
+    width: 15px;
+  }
+}
+
+@keyframes loadingI {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes loadingJ {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(80px, 0);
+    background-color: rgba(45, 204, 211, 0.50);
+    width: 25px;
+  }
+}
+
+
+.linha-comentario .foto-perfil-comentario a{
+    position: relative;
+    display: block;
+    width: 44px;
+    height: 44px;
+    text-decoration: none;
+}
+
+
+.linha-comentario .col-9{
+  padding-left: 0px;
+  margin-left: -12px;
+}
+
+
+.linha-comentario .col-9 .balao-comentario{
+  background: #f2f3f5;
+  text-align: left;
+  font-size: 13px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.linha-comentario .col-9 .balao-comentario b{
+  color: #012169;
+}
+
+.linha-comentario .col-9 .meta-comentario{
+  margin-top: -11px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  padding-top: 4px;
+}
+
+.linha-comentario .col-9 .meta-comentario a{
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+
+
+.whatsapp{
+  position: fixed;
+  display: block;
+  bottom: 37px;
+  right: 30px;
+  z-index: 9999999999999;
+}
+.whatsapp img {
+  width: 50px;
+  height: auto;
+}
+
+@media(max-width:540px){
+  .whatsapp{
+    position: fixed;
+    display: block;
+    bottom: 90px;
+    right: 30px;
+    z-index: 9999999999999;
+  }
+}
+
+
+@media(max-width: 540px){
+  section.video-container{
+    padding: 0px;
+  }
+  
+  .texto-apoio-video{
+    padding: 20px;
+  }
+
+  .area-comentarios{
+    height: 117px;
+  }
+
+}
+	
+</style>
+<link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+
+<link rel="stylesheet" href="css/plyr.css" />
+
+<!-- ICONES -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- OWL CAROUSEL -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+<!-- AOS -->
+<link href="css/aos.css" rel="stylesheet">
+<!-- ANIMATE -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+
+</head>
+<body>
+
+<!-- MODAL ACESSO -->
+<div class="modal-acesso">
+   <div class="container">
+      <div class="row">
+         <div class="col-xl-4 col-lg-4 col-md-4 col-12 offset-xl-4 offset-lg-4 offset-md-4">
+             <p>
+               <img src="images/BC-CMS-EVENTO-54ebd0e6c281d409eda5b2502dbe82f7.png" alt="">
+             </p>
+             <div class="form-group">
+               <label>Seu e-mail de cadastro</label>
+               <input type="email" class="form-control" id="emailAccess" placeholder="Seu e-mail cadastrado">
+             </div>
+             <div class="form-group text-center">
+               <button type="button" onclick="verifyAccess()" id="btnAcess" class="btn btn-primary">ACESSAR LAKMA LIVE SHOW</button>
+             </div>
+             <div id="retorno"></div>
+             <div class="form-group text-center">
+               <a href="https://lakmaliveshow.beautyconnect.com.br/" title="Não tenho acesso" class="btn btn-default" target="_blank">
+                 NÃO TENHO ACESSO
+               </a>
+             </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- MODAL ACESSO -->
+
+<section class="video-container">
+   <div class="row">
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">       
+          <!--
+          <p class='logos'>
+             <img src="images/LogoMarca-Lakma.png" alt="" style="width: 120px;">
+          </p>
+          --> 
+
+          <div class="plyr__video-embed" id="player">
+             
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/PA4sfK5Bwww&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" style="--plyr-color-main: #D40F7D !important;" allowfullscreen></iframe>
+
+          </div>
+
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 texto-apoio-video">
+          <h2>Comentários</h2>
+
+          <div class="area-comentarios" id="caixaDasMensagensInternas">
+            
+             
+
+                           
+
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="3" id="comentario" placeholder="Escreva nesse campo seu comentário ou dúvida"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="sendComentarios()" class="btn btn-primary">enviar comentário</button>
+          </div>
+     
+
+      </div>
+   </div>
+</section>
+
+<section class="comentarios">
+  
+  <div class="row">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-12">
+       <h2>Peeling de cristal líquido
+          <small>Inovação e exclusividade para o tratamento de qualquer tipo de manchas</small></h2>
+         <p>
+           Lakma Live Show é o primeiro curso de lançamento online para profissionais de estética com alcance global. Nosso objetivo é levar até você o que ha de mais moderno e inovador em dermocosméticos com teoria e prática para que você esteja sempra atualizada e saiba em primeira mão sobre os maiores lançamento da LAKMA.
+         </p>
+         <p>
+           E o melhor de tudo, sem sair de casa.
+         </p>
+         <p>
+            Conheça o Kit de Peeling de Cristal líquido: tecnologia exclusiva e inovadora que a Lakma dermocosméticos trouxe para o mercado brasileiro, com ativos clareadores e despigmentantes até então nunca utilizados na estética, com uma base inovadora idêntica à nossa pele e eficácia ideal para o tratamento contra toda e qualquer tipo de manchas.
+         </p>
+         <p>
+            Conheça o protocolo (passo a passo), indicações, contra indicações e benefícios no combate às manchas (hipercromias) faciais e corporais.
+        </p>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- RODAPE -->
+<footer>
+  <div class="container">
+    <div class="row">
+
+        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 offset-xl-2 offset-lg-2 offset-md-2 offset-sm-2 col-12 corpy">
+          <p>Criado através da plataforma Beauty Connect. Todos os direitos reservados ©</p>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12 mangu">
+            <a href="https://beautyconnect.com.br" target="_blank" alt="Site desenvolvido pela platafroma BeautyConnect">
+               <img src="images/bc-rodape.svg" alt="BeautyConnect Logo">
+            </a>
+        </div>
+    </div>
+  </div>
+</footer>
+<!-- RODAPE -->
+
+<!-- WHATSAPP -->
+<div class="whatsapp">
+  <a href="https://api.whatsapp.com/send?l=pt_BR&phone=5511945027877&text=Queria tirar algumas dúvidas sobre a Lakma" title="Tire suas dúvidas no Whatsapp" target="_blank">
+    <img src="images/whatsapp-logo-1-e1524582800686.png" alt="Whatsapp Canal de atendimento">
+  </a>
+</div>
+<!-- WHATSAPP -->
+
+    
+
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <script src="js/dist/jquery.inputmask.bundle.js"></script>
+    <script src="js/dist/inputmask/phone-codes/phone.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- AOS -->
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({disable: 'mobile'});
+    </script>
+
+    <!-- WOW -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+         new WOW().init();
+    </script>
+
+    <script type="text/javascript" src="js/jquery.animateNumber.min.js"></script>
+
+    <!-- PARALLAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/utils/Draggable.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      
+       var numPalestrantes = 2;
+       var numParticipantes = 1000;
+       var numExpositores = 0;
+
+    </script>
+
+    <script src="js/plyr.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js?v=10"></script>
+    <script type="text/javascript" src="js/sweetalert2.min.js"></script>
+
+    <script type="text/javascript">
+            // COMO FAZER A CHAMADA NO FORMULÁRIO onSubmit="return ajaxSubmit(this);"
+            var ajaxSubmit = function(form) {
+                // fetch where we want to submit the form to
+                var url = $(form).attr('action');
+                var flag = 9;
+
+                var data = $(form).serializeArray();
+
+                // setup the ajax request
+                $.ajax({
+                    url: url,
+                    data: data,
+                    dataType: 'json',
+                    type:'POST'
+                });
+
+                swal("Obrigado!", 'Sua mensagem foi enviada com sucesso', "success");
+
+                return false;
+            }
+
+
+
+
+             $( document ).ready(function() {
+
+                                var parceirosBeauty = $('#parceirosBeauty').owlCarousel({
+                                        loop:true,
+                                        margin:0,
+                                        items: 1,
+                                        autoplay: false,
+                                        center: true,
+                                        navText: [
+                                            '<img src="images/parceiro-esquerda.svg" alt="Página anterior">',
+                                            '<img src="images/parceiro-direita.svg" alt="Próxima página">'
+                                        ],
+                                        navContainer: '.custom-nav-banner',
+                                        autoplay:true,
+                                        autoplayTimeout:6500,
+                                        autoplayHoverPause:true,
+                                        //animateIn: 'fadeIn', // add this
+                                        //animateOut: 'fadeOut', // and this
+                                        responsive:{
+                                            0:{
+                                                items:1,
+                                                margin:2,
+                                                loop:true,
+                                                autoplay:false
+                                            },
+                                            600:{
+                                                items:1
+                                            },
+                                            1000:{
+                                                items:1
+                                            },
+                                            1200:{
+                                                items:1,
+                                                autoplay: false
+                                            }
+                                        }
+                                });
+                                  
+                                
+
+                                var loopPatrocinadores = $('#loopPatrocinadores').owlCarousel({
+                                        loop:true,
+                                        margin:10,
+                                        items: 5,
+                                        center: false,
+                                        navText: [
+                                            '<img src="images/esquerda.png" alt="mais patrocinadores">',
+                                            '<img src="images/direita.png" alt="mais patrocinadores">'
+                                        ],
+                                        navContainer: '.custom-nav-lpp',
+                                        autoplay:true,
+                                        autoplayTimeout:6500,
+                                        autoplayHoverPause:true,
+                                        //animateIn: 'fadeIn', // add this
+                                        //animateOut: 'fadeOut', // and this
+                                        responsive:{
+                                            0:{
+                                                items:1,
+                                                margin:20,
+                                                loop:true,
+                                                autoplay:false,
+                                                center:false
+                                            },
+                                            600:{
+                                                items:2
+                                            },
+                                            1000:{
+                                                items:3
+                                            },
+                                            1200:{
+                                                items:4
+                                            }
+                                        }
+                                    });
+               });
+
+
+    </script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</body>
+</html>
